@@ -19,6 +19,9 @@ START:                  ; first instruction of program
     MOVE #3, D0         ; LOAD IMMEDIATE VALUE (3) INTO D0
     TRAP #15            ; EXECUTE TRAP (OUTPUTE D0 TO CONSOLE
 
+    MOVE.B D4, D3           ; Copy byte from D4 to D3
+    TRAP #16            ; EXECUTE TRAP (OUTPUT D1 TO CONSOLE)
+
 * Put program code here
 
     SIMHALT             ; halt simulator
@@ -32,4 +35,5 @@ text:   dc.b 'Data Registor: ', 0   ; DEFINE THE STRING 'Data Registor: '
 *~Font size~10~
 *~Tab type~1~
 *~Tab size~4~
+
 
