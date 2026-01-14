@@ -1,8 +1,8 @@
 *-----------------------------------------------------------
-* Title      : Practical 01 part 3
+* Title      : Practical 01 part 4
 * Written by : Maryna Sobol
 * Date       : 14.01.2026
-* Description: Practical 01 part 3
+* Description: Practical 01 part 4
 *-----------------------------------------------------------
     MOVE.L #%00001111, D1   ; Load immediate into D1
     MOVE.B D1, D2           ; Copy byte from D1 to D2
@@ -32,3 +32,4 @@ text:   dc.b 'Data Registor: ', 0   ; DEFINE THE STRING 'Data Registor: '
 *~Font size~10~
 *~Tab type~1~
 *~Tab size~4~
+
