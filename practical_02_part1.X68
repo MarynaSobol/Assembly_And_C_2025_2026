@@ -1,3 +1,9 @@
+*-----------------------------------------------------------
+* Title      : Practical 02 part 1
+* Written by : Maryna Sobol
+* Date       : 19.01.2026
+* Description: Practical 02 part 1
+*-----------------------------------------------------------
 	ORG	$1000
 START:
 	MOVE.L	#%100,	D0
@@ -11,3 +17,4 @@ START:
 	SIMHALT
 
 	END	START
+
